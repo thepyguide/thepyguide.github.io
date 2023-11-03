@@ -1,0 +1,73 @@
+site_name: The Python Guide
+
+theme:
+  name: material
+  custom_dir: docs/_templates
+  palette:
+    - media: "(prefers-color-scheme)"
+      toggle:
+        icon: material/brightness-auto
+        name: Switch to light mode
+
+    - media: "(prefers-color-scheme: light)"
+      scheme: default 
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Switch to system preference
+  features:
+      - navigation.footer
+      - navigation.instant
+      - navigation.indexes
+      - navigation.tabs
+      - navigation.sections
+      - navigation.path
+      - content.code.annotate 
+  font:
+      text: Ubuntu
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - md_in_html
+  - attr_list
+  - def_list
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.tabbed:
+      alternate_style: true 
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+
+extra_css:
+  - _styles/index.css
+  - _styles/home.css
+
+extra_javascript:
+  - https://polyfill.io/v3/polyfill.min.js?features=es6
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+
+nav:
+  - Home: index.md
+  - Guide:
+    - Introduction: introduction.md
+    - 1. Getting Started:
+
+      - getting-started/installing-python.md
+      - getting-started/python-environments.md
+      - getting-started/the-first-program.md
+
+    - 2. Fundamental Concepts:
+
+      - fundamentals/variables-and-data-types.md
+      - fundamentals/io-operations.md
+      - fundamentals/comments.md
+      - fundamentals/mathematical-operations.md
+      - fundamentals/dealing-with-errors.md

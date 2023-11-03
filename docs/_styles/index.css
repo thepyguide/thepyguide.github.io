@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+[data-md-color-scheme="default"] {
+    --md-primary-fg-color: #306897;
+}
+
+[data-md-color-scheme="slate"] {
+    --md-primary-fg-color: #306897;
+}
+
+.btn {
+    width: 140px;
+    height: 50px;
+    transition: all ease-in-out 50ms;
+    color: white;
+    font-size: 18px;
+    border-radius: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.btn.primary {
+    background-color: #ffde71;
+    color: #4d4d62;
+}
+
+.btn.secondary {
+    background-color: #3675a9;
+    color: #ffde71;
+}
+
+.btn.primary:hover {
+    background-color: #fee284;
+}
+
+.btn.secondary:hover {
+    background-color: #2d6390;
+}
+
+.btn-group {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.md-nav {
+    width: auto !important;
+}

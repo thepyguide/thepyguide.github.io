@@ -1,0 +1,89 @@
+:root {
+    --intro-background-color: #22496a;
+    --intro-title-color: #ffffff;
+    --intro-subtitle-color: #f2f2f2;
+}
+
+[data-md-color-scheme="default"] {
+    --section-title-fg: #444444;
+    --section-subtitle-fg:#686868;
+    --feature-title-fg: var(--section-title-fg);
+    --feature-subtitle-fg: var(--section-subtitle-fg);
+    --md-primary-fg-color: #306897;
+}
+
+[data-md-color-scheme="slate"] {
+    --section-title-fg: #ffde71;
+    --section-subtitle-fg:#f2f2f2;
+    --md-primary-fg-color: #306897;
+}
+
+.intro {
+    width: auto;
+    height: 40rem;
+    background-color: var(--intro-background-color);
+}
+
+.intro-body {
+    padding: 10vw;
+}
+
+.intro-title {
+    font-family: 'Ubuntu';
+    font-size: 60px;
+    color: var(--intro-title-color);
+}
+
+.intro-subtitle {
+    font-family: 'Ubuntu';
+    font-size: 26px;
+    color: var(--intro-subtitle-color);
+    font-weight: lighter;
+}
+
+.section {
+    padding-left: 10vw;
+    padding-top: 2vw;
+}
+
+.section-title {
+    font-family: 'Ubuntu';
+    font-size: 50px;
+    color: var(--section-title-fg);
+}
+
+.section-subtitle {
+    font-family: 'Ubuntu';
+    font-size: 24px;
+    font-weight: lighter;
+    color: var(--section-subtitle-fg);
+}
+
+.features {
+    display: flex;
+    flex-direction: row;
+    gap: 4rem;
+    flex-wrap: wrap;
+}
+
+.feature {
+    width: 350px;
+    height: auto;
+    padding: 20px;
+    transition: all ease-in-out 0.2s;
+    border-top-color: var(--md-primary-fg-color);
+    border-top-width: 5px;
+    border-top-style: solid;
+}
+
+.feature-title {
+    color: var(--feature-title-fg);
+    font-family: 'Ubuntu';
+    font-size: 24px;
+}
+
+.feature-description {
+    font-family: 'Ubuntu';
+    font-size: 16px;
+    color: var(--feature-subtitle-fg);
+}
