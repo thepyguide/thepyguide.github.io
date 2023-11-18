@@ -13,7 +13,7 @@ Yep, that's it. That's the most basic Python program that outputs the given mess
 on screen (`Hello, World` in this case).
 
 Run this program from your code editor or command line. If you're using one of the editors
-listed in [1.2. Python Environments](./python-environments.md), it should
+listed in [1.2. Python Environments](./python-environments), it should
 provide a "Run Code" button. If not, you can execute the following command in the terminal:
 
 ```
