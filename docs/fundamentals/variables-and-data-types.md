@@ -266,9 +266,9 @@ y = int(x)  # (1)!
 ---
 
 
-!!! question "Quick Exercise"
+!!! question "Exercise"
 
-    === "Question"
+    === "Problem"
 
         **For each scenario, think of an appropriate Python data type that
         can be used.**
@@ -278,7 +278,7 @@ y = int(x)  # (1)!
         3. To store the height of user.
         4. To store whether the user is over 18 or not.
 
-    === "Answer"
+    === "Solution"
 
         1. **To store the address of a user:** `str`
 

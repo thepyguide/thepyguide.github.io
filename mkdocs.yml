@@ -28,6 +28,7 @@ theme:
       - navigation.sections
       - navigation.path
       - content.code.annotate 
+      - content.code.copy
   font:
       text: Ubuntu
 
@@ -72,3 +73,10 @@ nav:
       - fundamentals/mathematical-operations.md
       - fundamentals/dealing-with-errors.md
       - fundamentals/basic-calculator.md
+
+    - 3. Control Structures:
+
+      - control-structures/logical-operations.md
+      - control-structures/conditionals.md
+      - control-structures/indentation.md
+      - control-structures/conditionals-continued.md

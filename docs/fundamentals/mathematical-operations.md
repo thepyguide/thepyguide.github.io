@@ -69,10 +69,9 @@ Other operations that are also used often are:
 === "Output"
 
     ```
-    Sum: 12
-    Difference: 4
-    Product: 32
-    Division: 2.0
+    Power: 25
+    Division: 2
+    Remainder: 1
     ```
 
 !!! warning "Pitfall Alert"
