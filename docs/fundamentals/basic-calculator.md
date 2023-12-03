@@ -27,10 +27,12 @@ Our calculator will be doing the following things:
 
 === "Output"
 
+    ```
     Welcome to my calculator
 
     Enter the first number: 20
     Enter the second number: 30
+    ```
 
 Here, we're showing user a simply message to greet them in the program. A `print()` statement
 without any message arguments simply prints a newline. We're using that to add a gap between

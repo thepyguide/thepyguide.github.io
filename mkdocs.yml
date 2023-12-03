@@ -80,3 +80,4 @@ nav:
       - control-structures/conditionals.md
       - control-structures/indentation.md
       - control-structures/conditionals-continued.md
+      - control-structures/for-loop.md
