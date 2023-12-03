@@ -277,7 +277,7 @@ string.
 
 === "Output"
 
-    ``` hl_lines="1"
+    ```
     Enter a word: Hello
     H
     e
