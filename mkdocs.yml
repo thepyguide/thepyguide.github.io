@@ -59,7 +59,6 @@ nav:
   - Home: index.md
   - Guide:
     - introduction.md
-    - interface.md
     - 1. Getting Started:
 
       - getting-started/installing-python.md
@@ -83,3 +82,4 @@ nav:
       - control-structures/conditionals-continued.md
       - control-structures/for-loop.md
       - control-structures/while-loop.md
+      - control-structures/loop-control.md
