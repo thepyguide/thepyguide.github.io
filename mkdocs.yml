@@ -83,3 +83,7 @@ nav:
       - control-structures/for-loop.md
       - control-structures/while-loop.md
       - control-structures/loop-control.md
+
+    - 4. String Operations:
+
+      - string-operations/indexing-strings.md
