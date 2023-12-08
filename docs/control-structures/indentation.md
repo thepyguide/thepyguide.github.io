@@ -134,3 +134,11 @@ and the second line is indented with 4 spaces.
 
 To resolve the error, either the second line in code block has to be indented 8 spaces
 too or the first line has to be indented with 4 spaces.
+
+!!! tip
+
+    Writing pretty code is as important as writing efficient code. The conventional
+    practice is to stick to 4 spaces for indentation throughout your code.
+
+    While Python allows different indentation for individual code blocks, the best
+    practice is to stay consistent.

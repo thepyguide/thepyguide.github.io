@@ -25,3 +25,7 @@ Worth mentioning that Python is the go-to language for data science and machine 
 **Large Community:** Python has a large and ever-growing community of developers. With
 extensive support for multiple domains of application, this makes Python a worth learning
 language.
+
+## About this guide
+"The Python Guide" is a project of [XGuides](https://github.com/xguides), a contributions powered
+organization focused around providing useful programming resources.
