@@ -93,7 +93,8 @@ bits of useful information:
 
     - Line 4 tells us the file name and line number that caused the error.
     - Line 5 and 6 shows us the bit of code that caused the error.
-    - Line 7 shows an error message describing the error.
+    - Line 7 shows the name of error, `ZeroDivisionError`, and an error message
+      describing the cause of error.
 
 === "Code"
 
