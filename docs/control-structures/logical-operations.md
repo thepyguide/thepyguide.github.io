@@ -1,4 +1,4 @@
-# 3.1. Logical Operations
+# 4.1. Logical Operations
 In this brief section, we'll learn how this data type is useful to us and how we can
 produce some "logical operations" that either evaluate to "True" or "False".
 

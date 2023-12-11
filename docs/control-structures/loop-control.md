@@ -1,4 +1,4 @@
-# 3.7. Loop Control
+# 4.7. Loop Control
 In this section, we'll learn about two statements that are used to control a loop's flow.
 
 ## `break` statement

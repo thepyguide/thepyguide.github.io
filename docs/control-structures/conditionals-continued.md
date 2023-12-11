@@ -1,5 +1,5 @@
-# 3.4. Conditionals (Continued)
-In [section 3.2. Basic Conditionals](./basic-conditionals), we learned about some basic
+# 4.4. Conditionals (Continued)
+In [section 4.2. Basic Conditionals](./basic-conditionals), we learned about some basic
 constructs which are used to make decisions on the basis of some condition, more
 specifically, the `if` and `else` constructs.
 

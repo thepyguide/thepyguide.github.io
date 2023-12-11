@@ -1,4 +1,4 @@
-# 3.2. Basic Conditionals
+# 4.2. Basic Conditionals
 Every program needs to make some decisions during its executions. These decisions are typically
 made on the basis of the user input. To make such decisions, we use conditional statements.
 

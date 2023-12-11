@@ -1,4 +1,4 @@
-# 3.3. Indentation & Code blocks
+# 4.3. Indentation & Code blocks
 Before we move on to learning more about conditionals, it is important that you know
 about how indentation works in Python as indentation will be used a lot in Python.
 

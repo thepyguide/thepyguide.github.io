@@ -74,7 +74,13 @@ nav:
       - fundamentals/dealing-with-errors.md
       - fundamentals/basic-calculator.md
 
-    - 3. Control Structures:
+    - 3. String Operations:
+
+      - string-operations/indexing-strings.md
+      - string-operations/slicing-strings.md
+      - string-operations/formatting-strings.md
+
+    - 4. Control Structures:
 
       - control-structures/logical-operations.md
       - control-structures/conditionals.md
@@ -83,7 +89,3 @@ nav:
       - control-structures/for-loop.md
       - control-structures/while-loop.md
       - control-structures/loop-control.md
-
-    - 4. String Operations:
-
-      - string-operations/indexing-strings.md
