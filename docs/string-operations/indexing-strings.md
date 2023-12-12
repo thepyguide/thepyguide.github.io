@@ -1,4 +1,4 @@
-# 3.1. Indexing Strings
+# 4.1. Indexing Strings
 In this section, we'll learn about various operations that we can perform on the `str` data
 type to manipulate it.
 

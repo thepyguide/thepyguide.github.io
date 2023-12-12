@@ -1,4 +1,4 @@
-# 3.3. Formatting Strings
+# 4.3. Formatting Strings
 In this section, we'll discuss some ways of formatting strings.
 
 ## Concatenating strings

@@ -1,4 +1,4 @@
-# 3.2. Slicing Strings
+# 4.2. Slicing Strings
 In this section, we'll discuss how strings can be sliced to produce substrings.
 
 ## Understanding syntax
