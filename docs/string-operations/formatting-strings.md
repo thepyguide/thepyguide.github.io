@@ -32,7 +32,7 @@ an error is raised:
 
     ```
     Traceback (most recent call last):
-      File "C:\XGuides\python\test.py", line 2, in <module>
+      File "G:\thepyguide\main.py", line 2, in <module>
         print('Hello' + to_add)
             ~~~~~~~~^~~
     TypeError: can only concatenate str (not "int") to str

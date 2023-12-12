@@ -31,7 +31,7 @@ An example of syntax error:
 === "Output"
 
     ```
-      File "C:\XGuides\python\test.py", line 1
+      File "G:\thepyguide\main.py", line 1
         print('Hello world)
               ^
     SyntaxError: unterminated string literal (detected at line 1)
@@ -59,7 +59,7 @@ runtime error can occur when user provides 0 for denominator:
     Enter number 1: 8
     Enter number 2: 0
     Traceback (most recent call last):
-      File "C:\XGuides\python\test.py", line 4, in <module>
+      File "G:\thepyguide\main.py", line 4, in <module>
           print(n1 / n2)
                 ~~~^~~~
     ZeroDivisionError: division by zero
@@ -85,7 +85,7 @@ bits of useful information:
     Enter number 1: 8
     Enter number 2: 0
     Traceback (most recent call last):
-      File "C:\XGuides\python\test.py", line 4, in <module>
+      File "G:\thepyguide\main.py", line 4, in <module>
           print(n1 / n2)
                 ~~~^~~~
     ZeroDivisionError: division by zero

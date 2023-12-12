@@ -63,7 +63,7 @@ An error will be raised if indentation is skipped:
 === "Output"
 
     ```
-      File "C:\XGuides\python\test.py", line 3
+      File "G:\thepyguide\main.py", line 3
         print('You are over 18 so you can drive.')
         ^
     IndentationError: expected an indented block after 'if' statement on line 2
@@ -123,7 +123,7 @@ block.**
 === "Output"
 
     ```
-      File "C:\XGuides\python\test.py", line 8
+      File "G:\thepyguide\main.py", line 8
         print('So you cannot drive')  # 4 spaces
                                             ^
     IndentationError: unindent does not match any outer indentation level

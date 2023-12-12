@@ -81,7 +81,7 @@ exceeds the maximum index.
     ```
     d
     Traceback (most recent call last):
-      File "C:\XGuides\python\test.py", line 3, in <module>
+      File "G:\thepyguide\main.py", line 3, in <module>
         print(string[11])  # IndexError occurs!
             ~~~~~~^^^^
     IndexError: string index out of range
@@ -102,7 +102,7 @@ The same goes for negative indexes too:
     ```
     H
     Traceback (most recent call last):
-      File "C:\XGuides\python\test.py", line 3, in <module>
+      File "G:\thepyguide\main.py", line 3, in <module>
         print(string[-12])  # IndexError occurs!
             ~~~~~~^^^^
     IndexError: string index out of range
