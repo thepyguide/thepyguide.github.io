@@ -217,5 +217,5 @@ This section lists some of the commonly used and useful ones available on a stri
         False
         ```
 
-There are many other methods provided by the `str` data type that cannot listed here. For
+There are many other methods provided by the `str` data type and all of them cannot be listed here. For
 a list of all methods, check the official [Python documentation on this topic](https://docs.python.org/3/library/stdtypes.html#string-methods).
