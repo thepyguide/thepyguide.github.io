@@ -15,15 +15,17 @@ of a user, we can check whether the user can drive or not by checking whether th
 is above 18 or not.
 
 === "Code"
-```py
-age = 12
-print('Can user drive?', age > 18)
-```
+
+    ```py
+    age = 12
+    print('Can user drive?', age > 18)
+    ```
 
 === "Output"
-```
-Can user drive? False
-```
+
+    ```
+    Can user drive? False
+    ```
 
 If we change the value of `age` to say, `23`, we get:
 
