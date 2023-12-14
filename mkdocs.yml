@@ -57,8 +57,9 @@ extra_javascript:
 
 nav:
   - Home: index.md
-  - Guide:
+  - Learn Python:
     - introduction.md
+
     - 1. Getting Started:
 
       - getting-started/installing-python.md
