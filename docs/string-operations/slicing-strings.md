@@ -80,13 +80,13 @@ of string).
 
     ```py
     string = 'Hello World'
-    print(string[:6])
+    print(string[6:])
     ```
 
 === "Output"
 
     ```
-    Hello
+    World
     ```
 
 ## The `step` parameter

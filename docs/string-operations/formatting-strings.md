@@ -188,5 +188,5 @@ Expressions could also be used:
     ```
     Enter first number: 20
     Enter second number: 3
-    The product is 60.
+    The product is: 60
     ```
