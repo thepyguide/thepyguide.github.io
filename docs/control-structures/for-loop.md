@@ -52,7 +52,7 @@ in programming.
 These terms are explained in simple words below. Note that these are not technical
 definitions.
 
-- **Iterating** means going through or processing the elements present in an iterable
+- **Iterating** means going through or processing the elements present in an iterable.
 
 - **Iterable** could be a string of characters, range of numbers (as shown above),
   some data structure, or any other sequence that could have many elements.
