@@ -1,4 +1,4 @@
-# 3.5. The "for" Loop
+# 3.6. The "for" Loop
 Sometimes, we want to repeatively execute some piece of code. To do this, we use loops. The
 next few sections of the guide will cover how loops work in Python.
 

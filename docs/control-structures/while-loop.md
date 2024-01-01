@@ -1,4 +1,4 @@
-# 3.6. The "while" loop
+# 3.7. The "while" loop
 In previous section, we learned about the `for` loop that we can use to iterate over
 an iterable. In this section, we will take a look at the `while` loop.
 

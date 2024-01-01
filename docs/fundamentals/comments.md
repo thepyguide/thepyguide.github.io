@@ -16,13 +16,21 @@ print('This is a normal line of code')
 
 In this code, the first line is a comment which will be ignored during execution.
 
-Comments are used to include useful information in code which will help others reading
-your code. It is a good practice to add comments when you think your code could be too
-complicated to comprehend by a human.
+## Uses of Comments
 
-When working with programs, especially investigating errors or bugs in code, it is a common
-practice to use comments to temporarily prevent a piece of code to execute by commenting
-out that bit of code.
+- **Explaining Code:** Comments are used to include useful information in code which will help 
+others reading your code. It is a good practice to add comments when you think your code 
+could be too complicated to comprehend by a human.
+
+- **Debugging & Testing:** When working with programs, especially investigating errors or bugs in 
+code, it is a common practice to use comments to temporarily prevent a piece of code to execute by 
+commenting out that bit of code.
+
+- **Code Analysis & Type Checking:** For some third party tools that perform analysis on code
+or read the code, comments are used to manipulate their behaviour.
+
+
+----
 
 As you'll notice in next articles, we'll use comments throughout this guide for
 explaining the code snippets included in articles and we hope you do to in your code.

@@ -1,4 +1,4 @@
-# 3.2. Basic Conditionals
+# 3.1. Basic Conditionals
 Every program needs to make some decisions during its executions. These decisions are typically
 made on the basis of the user input. To make such decisions, we use conditional statements.
 
@@ -33,8 +33,10 @@ Let us understand this with an example:
     ```
 
 As you can see, when we give a number greater than or equal to 18, the program produces
-an output showing that the user can drive. When the [logical expression](./logical-operations.md)
-`age >= 18` evaluates to True, the indented lines are executed.
+an output showing that the user can drive.
+
+`age > 18` is a [logical expression](./logical-operations.md) and when it evaluates to `True`,
+the indented lines are executed. Logical expressions are covered in detail in a later topic.
 
 ## `else` statement
 However, if the number is less than 18, the program simply exits without any message
@@ -69,8 +71,7 @@ which seems a little odd. To fix this, we can include an `else` block:
     You cannot drive yet.
     ```
 
-The `else` block is executed when the logical expression evaluates to False and `if`
-is not executed.
+The `else` block is executed when the `if` is not executed.
 
 ## Indentation
 The lines after `if` statement are indented (leading spaces before the line of code) to

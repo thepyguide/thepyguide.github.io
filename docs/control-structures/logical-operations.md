@@ -1,13 +1,16 @@
-# 3.1. Logical Operations
-In this brief section, we'll learn how this data type is useful to us and how we can
-produce some "logical operations" that either evaluate to "True" or "False".
+# 3.3. Logical Operations
+In [section 3.1. Basic Conditionals](../control-structures/conditionals.md), we learned about
+`if` and `else` constructs that are used to perform operation on some condition.
+
+In this section, we'll learn about logical operations that are used to manipulate the
+conditions in `if` statements.
 
 ## The boolean type
 In the [section 2.1. Variables and Data Types](../fundamentals/variables-and-data-types), we
 learned about the "boolean data type" which is referred to as `bool` in Python.
 
 For a recap, `bool` data type is used to represent a boolean value which in turn, means either
-True or False.
+True or False. Result of logical operations is a boolean value.
 
 ## Basic logical operations
 Let us understand this with an example, if we have a variable `age` representing the age
@@ -106,35 +109,103 @@ True or False. The basic logical operators that can be used are:
     Below 18 or Is 18? True
     ```
 
-In above code, we change the value of `age` by giving different input each time to play with
-the output of each expression.
+We can use logical expressions in an `if` statement (as seen in section 3.1) to perform
+an action based on whether expression evaluates to True or False.
 
-## AND, OR, NOT operations
-In some cases, you have multiple expressions that you have to check for. For example, in
-order for some to be able to drive:
+=== "Code"
+
+    ```py
+    age = int(input('Enter an age:'))
+
+    if age >= 18:
+        print('You can drive.')
+    else:
+        print('You cannot drive.')
+    ```
+
+=== "Output (Input: 23)"
+
+    ```
+    Enter an age: 23
+    You can drive.
+    ```
+
+=== "Output (Input: 18)"
+
+    ```
+    Enter an age: 18
+    You can drive.
+    ```
+
+=== "Output (Input: 12)"
+
+    ```
+    Enter an age: 12
+    You cannot drive.
+    ```
+
+Here, `age >= 18` is the logical expression and the print statement is only executed when
+this expression evaluates to True.
+
+## AND, OR and NOT operators
+In some cases, you have multiple expressions that you have to check for.
+
+### AND operator
+`and` is a logical operator that checks whether all conditions are True. If any
+one or more of the conditions are not satisfied, the result is False.
+
+As an example, in order for user to be able to drive, following conditions must be satisfied:
 
 - the user must be 18 years or above
-- the user must have at least a score of 7 on driving test
+- the user must have above 6.5 on driving test
 
 We can represent this like so:
 
 === "Code"
 
     ```py
-    age = 23
-    driving_test_score = 9.5
+    age = int(input('Enter your age: '))
+    driving_test_score = float(input('Enter your driving test score: '))
 
-    print('Can user drive?', age >= 18 and driving_test_score > 7)
+    if age >= 18 and driving_test_score > 6.5:
+        print('You can drive.')
+    else:
+        print('You cannot drive.')
     ```
 
-=== "Output"
+=== "Output (age: 18, score: 10)"
 
     ```
-    Can user drive? True
+    Enter your age: 18
+    Driving test score: 10
+    You can drive.
     ```
 
-`and` is a logical operator that checks whether all conditions are True. If any
-of the conditions listed above are not satisfied, the result is False.
+    Here, `driving_test_score >= 6.5` expression results in `True` and `age >= 18`
+    results in `True`. The overall expression results in `True` because both expressions
+    are `True`.
+
+=== "Output (age: 12, score: 10)"
+
+    ```
+    Enter your age: 12
+    Driving test score: 10
+    You cannot drive.
+    ```
+
+    Here, `driving_test_score >= 6.5` expression results in `True` but `age >= 18`
+    results in `False`. The overall expression results in `False`.
+
+=== "Output (age: 23, score: 6)"
+
+    ```
+    Enter your age: 23
+    Driving test score: 6
+    You cannot drive.
+    ```
+
+    Here, `driving_test_score >= 6.5` expression results in `False` but `age >= 18`
+    results in `True`. The overall expression results in `False`.
 
 !!! tip
 
@@ -152,7 +223,7 @@ of the conditions listed above are not satisfied, the result is False.
         passed_test = driving_test_score > 7
 
         print('Over 18?', over_18)
-        print('Passed test?', over_18)
+        print('Passed test?', passed_test)
         print('Can drive?', over_18 and passed_test)
         ```
 
@@ -164,30 +235,60 @@ of the conditions listed above are not satisfied, the result is False.
         Can drive? False
         ```
 
-Similarly, we have `or` operator that evaluates to True if **any** one of the
-given condition is True. For example, lets say a customer is only eligible
-for discount if he or she spends at least 100$ _or_ if the customer has shopped
-at store before.
+### OR operator
+The `or` operator evaluates to True if **any one or more** of the given expressions are True.
+
+For example, lets say a customer is only eligible for discount if he or she spends at least 100$ 
+_or_ if the customer has shopped at store more than 10 times.
 
 === "Code"
 
     ```py
-    amount_spent = 150
-    old_customer = False
+    amount_spent = int(input('Enter amount spent shopping: '))
+    old_customer = input('Are you an old customer? ')
 
-    print('Discount applicable?', amount_spent > 150 or old_customer)
+    if amount_spent > 150 or old_customer == 'yes':
+        print('Customer gets a discount.')
+    else:
+        print('Discount not applied.')
     ```
 
-=== "Output"
+=== "Output #1"
 
     ```
-    Discount applicable? True
+    Enter amount spent shopping: 250
+    Are you an old customer? yes
+    Customer gets a discount.
     ```
 
-Note that despite `old_customer` being False, the customer was still given the
-discount because more than 100$ were spent.
+    Here, `amount_spent > 150` is `True` and `old_customer == 'yes'` is also `True` so
+    overall expression is `True`.
 
-Simply put, if you test the following logial expressions, you'd get the mentioned
+=== "Output #2"
+
+    ```
+    Enter amount spent shopping: 50
+    Are you an old customer? yes
+    Customer gets a discount.
+    ```
+
+    Here, `amount_spent > 150` is `False` but `old_customer == 'yes'` is `True` so
+    overall expression is `True`.
+
+=== "Output #3"
+
+    ```
+    Enter amount spent shopping: 40
+    Are you an old customer? no
+    Discount not applied.
+    ```
+
+    Here, `amount_spent > 150` is `False` and `old_customer == 'yes'` is also `False` so
+    overall expression is `False`.
+
+---
+
+Simply put, if you test the following logical expressions, you'd get the mentioned
 result:
 
 - `True and True` evaluates to `True`
@@ -197,64 +298,43 @@ result:
 - `True or False` evaluates to `True`
 - `False or False` evaluates to `False`
 
-!!! note
-
-    We can use `and` and `or` for as many expressions as we like.
-
-    For example, `e1 and e2 and e3` means that `e1`, `e2`, `e3`, all
-    have to be True for result to be True.
-
 !!! info
 
     - For `and`, if all expressions are True, result is True. If any expression is
       False, result is False.
 
-    - For `or`, if one or more expression are True, result is True. If all
-      expressions are False, result is also False.
+    - For `or`, if any expression is True, result is True. If all expressions are False,
+      result is also False.
 
+### NOT operator
 We also have a `not` operator which simply inverts the given boolean value. That is,
 `not True` evaluates to `False`. `not False` evaluates to `True`.
 
-For example, the expression in code below is `True` only when age is less than 18:
+For example, the expression in code below is `True` only when X is not greater than
+Y (either X < Y or X = Y):
 
 === "Code"
 
     ```py
-    age = int(input('Enter age: '))
-    print('age is not greater than 18:', not age >= 18)
+    X = int(input('X: '))
+    Y = int(input('Y: '))
+    print('X is not greater than Y:', not (X > Y))
     ```
 
-=== "Output (Input: 23)"
+=== "Output (X: 20, Y: 30)"
 
     ```
-    Enter age: 23
-    age is not greater than 18: False
+    X: 20
+    Y: 30
+    X is not greater than Y: True
     ```
 
-=== "Output (Input: 12)"
+=== "Output (X: 30, Y: 20)"
 
     ```
-    Enter age: 12
-    age is not greater than 18: True
+    X: 30
+    Y: 20
+    X is not greater than Y: False
     ```
 
-=== "Output (Input: 18)"
-
-    ```
-    Enter age: 18
-    age is not greater than 18: True
-    ```
-
-This expression is just an equivalent of `age < 18`.
-
-----
-
-## Application of logical expressions
-You may ask, how are logical expressions and their result useful to us? We're glad you
-asked. Logical expressions form the base for a much important and fundamental concept.
-
-In the next section, you'd learn about **conditional statements**. These statements would
-use result of logical expressions to make decisions and make your programs even more
-interesting.
-
-_**More information in the next section!**_
+This expression is just an equivalent of `X <= Y`.

@@ -15,6 +15,11 @@ This is the syntax of creating variables. Here, left hand side of the `=` symbol
 represents the name of variable while the right hand side is the value assigned
 to variable.
 
+!!! note
+
+    `20 = age` is not a valid syntax. Left side is always the variable name
+    with right side being the value to store.
+
 When we need the information, we can simply access it by referencing variable
 name:
 
@@ -46,7 +51,7 @@ There are a few rules for the name of a variable which must be followed:
 
 ### Updating a variable
 
-As the name suggest, variables value can be updated too. For example, in below snippet of
+As the name suggest, variables value can be varied too. For example, in below snippet of
 code we are first assigning the value 20 to age and after printing that, we're updating
 the age variable to hold the value 30.
 
@@ -88,7 +93,8 @@ the previous age by one:
     ```
 
 ## Data Types
-In programming, we tend to deal with different kinds of data e.g. numbers, text etc.
+In programming, we tend to deal with different kinds of data e.g. numbers, text, decimal
+numbers, dates etc.
 
 To categorize the data, we have data types in programming. Data types are used to
 represent the type or kind of data. In Python, we have four basic data types:
@@ -204,6 +210,12 @@ In Python, we have `bool` type to represent boolean values. There are only two b
     <class 'bool'>
     ```
 
+!!! tip
+
+    Booleans are used in [logical expressions](../control-structures/logical-operations.md) and 
+    [conditionals](../control-structures/conditionals.md). These topics are covered in later
+    sections.
+
 ### Converting data types
 In programming, it is important to ensure that each data is in its appropriate
 data type. This is done to ensure that proper operations can be performed on the data.
@@ -284,9 +296,10 @@ y = int(x)  # (1)!
 
         Because address is a text, we must use a string to store it.
 
-        2. **To store the phone number of a user:** `int`
+        2. **To store the phone number of a user:** `str`
 
-        Phone numbers are a set of digits or in other words, an integer.
+        Phone numbers are a set of digits and could also include dashes
+        or plus symbols, so a string.
 
         3. **To store the height of user:** `float`
 
