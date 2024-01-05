@@ -91,3 +91,12 @@ nav:
       - string-operations/slicing-strings.md
       - string-operations/formatting-strings.md
       - string-operations/string-methods.md
+
+    - 5. Functions:
+
+      - functions/functions-basics.md
+      - functions/arguments.md
+      - functions/return-value.md
+      - functions/scopes.md
+      - functions/builtin-functions.md
+      - functions/lambda-expressions.md
