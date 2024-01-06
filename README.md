@@ -1,5 +1,5 @@
 # The Python Guide
-**Available to be viewed at thepyguide.github.io**
+**Available to be viewed at [thepyguide.github.io](https://thepyguide.github.io)**
 
 A comprehensive guide and tutorial for the Python programming language.
 
