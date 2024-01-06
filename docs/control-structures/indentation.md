@@ -142,3 +142,16 @@ too or the first line has to be indented with 4 spaces.
 
     While Python allows different indentation for individual code blocks, the best
     practice is to stay consistent.
+
+### Tabs and spaces
+Either ++tab++ can be used for indentation or four spaces. In most code
+editors, pressing a ++tab++ adds four spaces. However, both tabs
+and spaces cannot be mixed or a `TabError` is raised.
+
+!!! tip
+
+    The preferred and good practice is to always use spaces for indentation
+    because tabs can affect readiblity of code on different code editors.
+
+    This is why most code editors treat pressing a ++tab++ as pressing
+    ++space++ four times.
