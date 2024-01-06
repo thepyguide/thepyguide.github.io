@@ -36,6 +36,7 @@ markdown_extensions:
   - admonition
   - pymdownx.details
   - pymdownx.superfences
+  - pymdownx.keys
   - md_in_html
   - attr_list
   - def_list
@@ -100,3 +101,10 @@ nav:
       - functions/scopes.md
       - functions/builtin-functions.md
       - functions/lambda-expressions.md
+
+    - 6. Exception Handling:
+
+      - exception-handling/try-except-statements.md
+      - exception-handling/else-finally-statements.md
+      - exception-handling/pass-statement.md
+      - exception-handling/common-errors.md
