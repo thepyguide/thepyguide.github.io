@@ -150,7 +150,7 @@ finally:
     In short, the only valid blocks order are:
 
     - `try`-`except`
-    - `try-`except`-`else`
+    - `try`-`except`-`else`
     - `try`-`except`-`else`-`finally`
     - `try`-`except`-`finally`
     - `try`-`finally`
