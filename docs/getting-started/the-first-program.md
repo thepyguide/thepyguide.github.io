@@ -5,9 +5,23 @@ first program. The moment of truth.
 Create a new file in your code editor or IDE and name it `main.py`. In this file, include
 your first line of Python code:
 
-```py
-print('Hello, World!')
-```
+=== "Code"
+
+    ```py
+    print('Hello, World!')
+    ```
+
+=== "Output"
+
+    ```
+    Hello World
+    ```
+
+!!! tip
+
+    Throughout this guide, code blocks are used to showcase code snippets
+    like the one above. Click on the `Output` tab to see the expected
+    output of the code.
 
 Yep, that's it. That's the most basic Python program that outputs the given message
 on screen (`Hello, World` in this case).

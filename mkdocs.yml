@@ -3,6 +3,8 @@ site_name: The Python Guide
 theme:
   name: material
   custom_dir: docs/_templates
+  logo: _images/logo_header.png
+  favicon: _images/favicon.png
   palette:
     - media: "(prefers-color-scheme)"
       toggle:
@@ -58,6 +60,7 @@ extra_javascript:
 
 nav:
   - Home: index.md
+  - About: about.md
   - Learn Python:
     - introduction.md
 
@@ -108,3 +111,10 @@ nav:
       - exception-handling/else-finally-statements.md
       - exception-handling/pass-statement.md
       - exception-handling/common-errors.md
+
+  - Contributor Guide:
+
+      - contributing/index.md
+      - contributing/issues.md
+      - contributing/pull-requests.md
+      - contributing/development.md
