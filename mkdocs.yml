@@ -112,6 +112,10 @@ nav:
       - exception-handling/pass-statement.md
       - exception-handling/common-errors.md
 
+    - 7. Data Structures:
+
+      - data-structures/list.md
+
   - Contributor Guide:
 
       - contributing/index.md
