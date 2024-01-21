@@ -352,4 +352,148 @@ elements at a specific index.
     insert strawberry at index 2: ['mango', 'apple', 'strawberry', 'banana', 'peach']
     ```
 
-### Removing Elements
+### Removing Elements (`del`)
+List elements can be removed using their indexes using the `del` keyword.
+
+=== "Code"
+
+    ```py
+    fruits = ['apple', 'banana', 'peach']
+    print('before:', fruits)
+
+    del fruits[1]
+    print('after:', fruits)
+    ```
+
+=== "Output"
+
+    ```
+    before: ['apple', 'banana', 'peach']
+    after: ['apple', 'peach']
+    ```
+
+<!-- TODO: page for del kw -->
+
+!!! note
+
+    The `del` keyword is used to delete any object in Python. If we
+    use `del` on a variable, that variable is deleted.
+
+    ```py
+    a = 1
+    del a
+    print(a)  # NameError: 'a' is not defined
+    ```
+
+### Removing Elements (methods)
+The `list` data type provides many methods that can be used to remove elements
+from a list.
+
+#### `list.pop()`
+`list.pop()` works in a similar way as the `del` operator: it removes the element
+using its index. The only difference is that the removed element is also returned
+by this method.
+
+=== "Code"
+
+    ```py
+    fruits = ['apple', 'banana', 'peach']
+    print('before:', fruits)
+
+    removed = fruits.pop(1)
+    print(f'after removing {removed}:', fruits)
+    ```
+
+=== "Output"
+
+    ```
+    before: ['apple', 'banana', 'peach']
+    after removing banana: ['apple', 'peach']
+    ```
+
+`fruits.pop(1)` returned the removed element, `'banana'`.
+
+If no argument is passed in `list.pop()`, the last element of the list (from
+right hand side) is removed:
+
+=== "Code"
+
+    ```py
+    fruits = ['apple', 'banana', 'peach']
+    print('before:', fruits)
+
+    removed = fruits.pop()
+    print(f'after removing {removed}:', fruits)
+    ```
+
+=== "Output"
+
+    ```
+    before: ['apple', 'banana', 'peach']
+    after removing peach: ['apple', 'banana']
+    ```
+
+#### `list.remove()`
+`list.remove()` takes any value as parameter and removes that value from the
+list:
+
+=== "Code"
+
+    ```py
+    fruits = ['apple', 'banana', 'peach']
+    print('before:', fruits)
+
+    fruits.remove('banana')
+    print(f'after:', fruits)
+    ```
+
+=== "Output"
+
+    ```
+    before: ['apple', 'banana', 'peach']
+    after: ['apple', 'peach']
+    ```
+
+Worth noting that if the given value appears more than once in the list, only
+the first occurence is removed:
+
+=== "Code"
+
+    ```py
+    fruits = ['apple', 'banana', 'peach', 'banana']
+    print('before:', fruits)
+
+    fruits.remove('banana')
+    print(f'after:', fruits)
+    ```
+
+=== "Output"
+
+    ```
+    before: ['apple', 'banana', 'peach', 'banana']
+    after: ['apple', 'peach', 'banana']
+    ```
+
+In case the passed value is not in the list, a `ValueError` is raised.
+
+#### `list.clear()`
+`list.clear()` is a rather nuclear option. This method deletes all elements
+of the list and makes it empty.
+
+=== "Code"
+
+    ```py
+    fruits = ['apple', 'banana', 'peach']
+    print('before:', fruits)
+
+    fruits.clear()
+    print(f'after:', fruits)
+    ```
+
+=== "Output"
+
+    ```
+    before: ['apple', 'banana', 'peach', 'banana']
+    after: []
+    ```
+
