@@ -95,6 +95,7 @@ nav:
       - string-operations/slicing-strings.md
       - string-operations/formatting-strings.md
       - string-operations/string-methods.md
+      - string-operations/other-operations.md
 
     - 5. Functions:
 
@@ -114,7 +115,11 @@ nav:
 
     - 7. Data Structures:
 
-      - data-structures/lists.md
+      - 7.1. Lists:
+
+        - data-structures/lists/introduction.md
+        - data-structures/lists/manipulating-elements.md
+        - data-structures/lists/other-operations.md
 
   - Contributor Guide:
 
