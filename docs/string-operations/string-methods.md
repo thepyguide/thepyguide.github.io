@@ -1,4 +1,4 @@
-# 4.3. String Methods
+# 4.4. String Methods
 The `str` data type provides many useful methods that can be used to manipulate a string.
 
 !!! note
