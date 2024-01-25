@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
 
+/* ------- MkDocs Overriden ------- */
+
 [data-md-color-scheme="default"] {
     --md-primary-fg-color: #306897;
 }
@@ -7,6 +9,12 @@
 [data-md-color-scheme="slate"] {
     --md-primary-fg-color: #306897;
 }
+
+.md-typeset .admonition {
+    font-size: 0.8rem !important;
+}
+
+/* ------- Custom Classes -------- */
 
 .btn {
     width: 140px;
