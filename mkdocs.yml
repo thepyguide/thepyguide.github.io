@@ -119,7 +119,6 @@ nav:
 
         - data-structures/lists/introduction.md
         - data-structures/lists/manipulating-elements.md
-        - data-structures/lists/other-operations.md
 
       - 7.2. Tuples:
 
@@ -133,7 +132,7 @@ nav:
         - data-structures/sets/manipulating-elements.md
         - data-structures/sets/set-operations.md
 
-      - data-structures/list-tuple-operations.md
+      - data-structures/sequence-operations.md
 
   - Contributor Guide:
 
