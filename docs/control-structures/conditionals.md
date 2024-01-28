@@ -113,4 +113,4 @@ to False.
 In Python, the indentation (i.e. the leading spaces before the code) in both clause bodies
 is significant. The next page discusses the concept of indentation in detail.
 
-The concept of conditionals is continued in [3.4. Conditionals (Continued)](.conditionals-continued.md)
+The concept of conditionals is continued in [3.4. Conditionals (Continued)](./conditionals-continued.md)

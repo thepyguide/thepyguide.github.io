@@ -6,7 +6,7 @@ In this section, we'll learn about logical operations that are used to manipulat
 conditions in `if` statements.
 
 ## The boolean type
-In the [section 2.1. Variables and Data Types](../fundamentals/variables-and-data-types), we
+In the [section 2.1. Variables and Data Types](../fundamentals/variables-and-data-types.md), we
 learned about the "boolean data type" which is referred to as `bool` in Python.
 
 For a recap, `bool` data type is used to represent a boolean value which in turn, means either

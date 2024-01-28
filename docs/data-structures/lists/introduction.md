@@ -67,7 +67,7 @@ have similar elements with same order so the two lists are equal.
 
 ### Indexable
 Each element stored in a list can be accessed by its index. We learned
-about indexes in [section 4.1. Indexing Strings](../string-operations/indexing-strings.md).
+about indexes in [section 4.1. Indexing Strings](../../string-operations/indexing-strings.md).
 
 === "Code"
 
@@ -83,7 +83,7 @@ about indexes in [section 4.1. Indexing Strings](../string-operations/indexing-s
     peach
     ```
 
-All the rules about indexes we saw in [section 4.1. Indexing Strings](../string-operations/indexing-strings.md) are applicable on lists too:
+All the rules about indexes we saw in [section 4.1. Indexing Strings](../../string-operations/indexing-strings.md) are applicable on lists too:
 
 Indexes start from `0` (`0` pointing to first element) and negative
 indexes starting from `-1` can be used to access elements from right
@@ -124,7 +124,7 @@ lists can be sliced similar to strings.
 original `list` up until element on `m - 1` index (upper bound is
 exclusive).
 
-For more information on slicing, see [section 4.2. Slicing Strings](../string-operations/slicing-strings.md).
+For more information on slicing, see [section 4.2. Slicing Strings](../../string-operations/slicing-strings.md).
 
 ### Allows Duplicates
 Lists allow duplicate elements to be stored.

@@ -2,7 +2,7 @@
 In this section, we'll be looking at how we can take input from user and produce an output.
 
 ## Formatting output
-For a recap, in the [1.3. Hello World](../../getting-started/the-first-program), we learnt
+For a recap, in the [1.3. Hello World](../getting-started/the-first-program.md), we learnt
 about the `print()` function which allows us to output messages.
 
 The `print()` function provides some extra functionality that allows us to format our output.

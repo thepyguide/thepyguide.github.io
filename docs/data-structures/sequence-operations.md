@@ -78,7 +78,7 @@ is when you want to [add elements to an immutable tuple](./tuples/manipulating-e
 
 ## Multiplication (the `*` operator)
 Elements of a list and tuples can be multiplied using the `*` operator.
-This is similar to how did [string multiplication](../../string-operations/other-operations.md#multiplication-the--operator).
+This is similar to how did [string multiplication](../string-operations/other-operations.md#multiplication-the--operator).
 
 === "Code"
 
