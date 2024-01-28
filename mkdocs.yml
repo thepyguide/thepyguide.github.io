@@ -1,10 +1,17 @@
 site_name: The Python Guide
+repo_url: https://github.com/thepyguide/thepyguide.github.io
+repo_name: thepyguide/thepyguide.github.io
+copyright: Copyright &copy; 2024 - 2025 Izhar Ahmad
 
 theme:
   name: material
   custom_dir: docs/_templates
   logo: _images/logo_header.png
   favicon: _images/favicon.png
+  icon:
+    repo: fontawesome/brands/github
+    edit: material/pencil
+    view: material/eye
   palette:
     - media: "(prefers-color-scheme)"
       toggle:
@@ -31,8 +38,15 @@ theme:
       - navigation.path
       - content.code.annotate 
       - content.code.copy
+      - content.action.edit
+      - search.suggest
+      - search.highlight
+      - search.share
   font:
       text: Ubuntu
+
+plugins:
+  - search
 
 markdown_extensions:
   - admonition
@@ -49,6 +63,17 @@ markdown_extensions:
   - pymdownx.emoji:
       emoji_index: !!python/name:materialx.emoji.twemoji
       emoji_generator: !!python/name:materialx.emoji.to_svg
+
+extra:
+  social:
+    - icon: simple/buymeacoffee
+      link: https://www.buymeacoffee.com/izxxr
+      name: Donate on BuyMeACoffee
+
+    - icon: simple/kofi
+      link: https://ko-fi.com/izxxr
+      name: squidfunk on Fosstodon
+      name: Donate on Ko-Fi
 
 extra_css:
   - _styles/index.css
