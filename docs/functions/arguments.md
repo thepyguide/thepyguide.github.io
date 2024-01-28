@@ -215,9 +215,8 @@ We can also define functions that can take variable amount of arguments.
     Hello, Alex!
     ```
 
-<!-- TODO: Ref Tuples -->
 In this code, `*names` in arguments list means that this argument can take variable amount
-of arguments. Inside the function, `names` is a tuple of values that were passed.
+of arguments. Inside the function, `names` is a [tuple](../data-structures/tuples/introduction.md) of values that were passed.
 
 === "Code"
 

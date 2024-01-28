@@ -37,6 +37,7 @@ from other linear data structures provided by the language:
 
 - Ordered
 - Indexable
+- Allows Duplicates
 - Mutable
 
 ### Ordered
@@ -124,6 +125,34 @@ original `list` up until element on `m - 1` index (upper bound is
 exclusive).
 
 For more information on slicing, see [section 4.2. Slicing Strings](../string-operations/slicing-strings.md).
+
+### Allows Duplicates
+Lists allow duplicate elements to be stored.
+
+=== "Code"
+
+    ```py
+    fruits = [
+        'apple',
+        'peach',
+        'banana',
+        'peach',
+        'strawberry',
+        'peach',
+        'apple'
+    ]
+
+    print(fruits)
+    ```
+
+=== "Output"
+
+    ```
+    ['apple', 'peach', 'banana', 'peach', 'strawberry', 'peach', 'apple']
+    ```
+
+In this case, `fruits[0]` and `fruits[6]` are duplicates and `fruits[1]`,
+`fruits[3]` and `fruits[5]` are duplicates.
 
 ### Mutable
 Lists is a mutable data structure. This means the items in a list can

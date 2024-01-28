@@ -171,4 +171,4 @@ For example, the following program takes two numbers and adds them:
     ```
 
 For more information on data type conversion, take a look at the
-[2.1.1. Variable and Data Types: Converting data types](./variables-and-data-types.md#converting-data-types) topic.
+[2.1. Variables and Data Types: Converting data types](./variables-and-data-types.md#converting-data-types) topic.

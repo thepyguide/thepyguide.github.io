@@ -1,4 +1,4 @@
-# 2.1. Variable and Data Types
+# 2.1. Variables and Data Types
 In this section, we're going to look at one of the most fundamental concept of
 programming, variables and data types.
 

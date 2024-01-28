@@ -118,8 +118,8 @@ For example, consider this function that returns result of division and remainde
     1
     ```
 
-<!-- TODO ref: Tuples -->
-In fact, the values returned are stored as a tuple and could be unpacked too:
+In fact, the values returned are stored as a [tuple](../data-structures/tuples/introduction.md)and could be
+[unpacked](../data-structures/tuples/unpacking-tuples.md) too:
 
 === "Code"
 

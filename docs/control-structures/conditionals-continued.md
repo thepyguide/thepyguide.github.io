@@ -194,7 +194,6 @@ is always an `if`.
         print(color, 'color is not supported')
     ```
 
-    <!-- TODO: pageref  -->
 
     1. `color.lower()` is a method that converts the string to lowercase. This is done to make
         the comparison easier as user might give input in mixed case (e.g. `rEd` or `Red`).
@@ -202,7 +201,8 @@ is always an `if`.
         If we don't do this, then comparison would fail if user provides a mixed case input.
         (e.g. `"Red" == "red"` evaluates to False)
 
-        **Methods are covered in detail in later sections.**
+        **These methods are covered in detail in
+        a [later section](../string-operations/string-methods.md).**
 
 === "Output (Red)"
 

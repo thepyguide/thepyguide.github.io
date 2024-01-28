@@ -121,6 +121,20 @@ nav:
         - data-structures/lists/manipulating-elements.md
         - data-structures/lists/other-operations.md
 
+      - 7.2. Tuples:
+
+        - data-structures/tuples/introduction.md
+        - data-structures/tuples/manipulating-elements.md
+        - data-structures/tuples/unpacking-tuples.md
+
+      - 7.3. Sets:
+
+        - data-structures/sets/introduction.md
+        - data-structures/sets/manipulating-elements.md
+        - data-structures/sets/set-operations.md
+
+      - data-structures/list-tuple-operations.md
+
   - Contributor Guide:
 
       - contributing/index.md

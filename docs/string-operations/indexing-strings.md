@@ -108,9 +108,9 @@ The same goes for negative indexes too:
     IndexError: string index out of range
     ```
 
-<!-- TODO: pageref -->
 
 !!! tip
 
-    We'll learn later in this guide on how to handle errors using the `try` and `except`
-    statements.
+    We'll learn later in this guide on how to handle errors using the `try` and `except` statements.
+
+    See [Chapter 7. Exception Handling](../exception-handling/try-except-statements.md) for more information.

@@ -10,7 +10,7 @@
     --md-primary-fg-color: #306897;
 }
 
-.md-typeset .admonition {
+.md-typeset .admonition, .example {
     font-size: 0.8rem !important;
 }
 
