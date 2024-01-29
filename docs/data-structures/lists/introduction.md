@@ -38,6 +38,7 @@ from other linear data structures provided by the language:
 - Ordered
 - Indexable
 - Allows Duplicates
+- Nestable
 - Mutable
 
 ### Ordered
@@ -153,6 +154,55 @@ Lists allow duplicate elements to be stored.
 
 In this case, `fruits[0]` and `fruits[6]` are duplicates and `fruits[1]`,
 `fruits[3]` and `fruits[5]` are duplicates.
+
+### Nestable
+Lists can be nested. This means we can store a list inside another list.
+
+=== "Code"
+
+    ```py
+    l = [
+        [0, 1, 2],
+        ['a', 'b', 'c'],
+    ]
+
+    print(l[1][2])
+    ```
+
+=== "Output"
+
+    ```
+    c
+    ```
+
+In this code, we're first accessing the second element of `l` which
+is in turn another list `['a', 'b', 'c']` then we're indexing the second
+list accessing the third element.
+
+There is no restriction on how deep we can go with nesting:
+
+=== "Code"
+
+    ```py
+    l = [
+            [0, 1, 2],
+            [
+                'a', 'b',
+                ['c', 'd'],
+            ],
+        ]
+
+        print(l[1][1][0])
+    ```
+
+=== "Output"
+
+    ```
+    c
+    ```
+
+Undoubtedly this code looks tedious and confusing but we're simply storing
+two lists in `l` and the second list has another list nested in it.
 
 ### Mutable
 Lists is a mutable data structure. This means the items in a list can

@@ -73,6 +73,7 @@ it from other data structures:
 - Ordered
 - Indexable
 - Allows Duplicates
+- Nestable
 
 ### Immutable
 Tuples are much like [lists](../lists/introduction.md): they are linear
@@ -166,3 +167,30 @@ fruits = ('apple', 'pineapple', 'peach', 'strawberry', 'apple', 'peach')
 
 In this code, `fruits[0]` and `fruits[4]` are duplicates and `fruits[2]`
 and `fruits[5]` are duplicates.
+
+## Nestable
+Tuples can be nested just like lists. This means we can store a
+tuple inside another tuple.
+
+=== "Code"
+
+    ```py
+    t = (
+        (0, 1, 2),
+        ('a', 'b', 'c'),
+    )
+
+    print(t[1][2])
+    ```
+
+=== "Output"
+
+    ```
+    c
+    ```
+
+In this code, we're first accessing the second element of `t` which
+is in turn another tuple `('a', 'b', 'c')` then we're indexing the second
+tuple accessing the third element.
+
+Again, there is [no restriction on how deep nesting can be done](../lists/introduction.md#nestable).

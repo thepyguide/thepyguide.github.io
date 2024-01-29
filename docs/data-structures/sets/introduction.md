@@ -45,6 +45,7 @@ structures e.g. lists and tuples.
 - Unordered
 - Unindexable
 - No Duplicates
+- No mutable types
 
 !!! note
 
@@ -123,6 +124,44 @@ the duplicates are automatically ignored or discarded.
     ```
     {'a', 'b', 'c'}
     ```
+
+### No mutable types
+For lists and tuples, we could store mutable types in it. For example,
+we could store a tuple inside a list and vice versa but this isn't the
+case for sets.
+
+Sets do not allow storing mutable types in it.
+
+=== "Code"
+
+    ```py
+    s = {'a', [1, 2, 3]}
+    ```
+
+=== "Output"
+
+    ```
+    Traceback (most recent call last):
+      File "C:\XGuides\python\test.py", line 1, in <module>
+        s = {'a', [1, 2, 3]}
+            ^^^^^^^^^^^^^^^^
+    TypeError: unhashable type: 'list'
+    ```
+
+Since tuples are immutable, they can be stored in sets.
+
+!!! note
+
+    Technically speaking, it would be a half correct or incomplete
+    statement to say that sets only allow "immutable types."
+
+    This is true but the actual items that set allows is "hashable"
+    types. Hashable types are those values that can be passed to
+    the `hash()` function to creates a unique string called "hash"
+    that Python uses internally to represent the items of a set.
+
+    In other words, set does not allow mutable types because they
+    are not hashable.
 
 ## Application
 With sets being unordered and unindexable, this raises a question that
