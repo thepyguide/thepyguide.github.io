@@ -127,6 +127,28 @@ updated elements.
 
     Multiplication is not possible for sets.
 
+## Checking Membership (`in` operator)
+Python provides an `in` operator that can be used to check whether a
+specific item exists in a sequence.
+
+=== "Code"
+
+    ```py
+    letters = ('a', 'b', 'c')
+
+    print('b' in letters)
+    print('d' in letters)
+    ```
+
+=== "Output"
+
+    ```
+    True
+    False
+    ```
+
+This operator works for all data structures provided by Python.
+
 ## Common Methods
 Following are some commonly used methods for sequences. Other
 methods have been covered in respective section of each data
