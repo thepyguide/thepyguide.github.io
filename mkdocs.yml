@@ -159,6 +159,14 @@ nav:
 
       - data-structures/sequence-operations.md
 
+      - 7.5. Dictionaries:
+
+        - data-structures/dictionary/introduction.md
+        - data-structures/dictionary/accessing-items.md
+        - data-structures/dictionary/manipulating-items.md
+
+      - data-structures/copying-data-structures.md
+
   - Contributor Guide:
 
       - contributing/index.md

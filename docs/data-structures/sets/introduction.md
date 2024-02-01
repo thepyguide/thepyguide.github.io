@@ -1,9 +1,9 @@
-# 7.3.1. Introduction to Sets
+# 7.3.1. Basics of Sets
 Sets are one of the four built-in data structures that we'll study in
 this guide.
 
 ## Defining Sets
-Like lists and tuples, set is also a linear data structure that stores
+Like lists and tuples, set is also a data structure that stores
 values in a single variable but there are two main differences between
 the sets and lists or tuples:
 

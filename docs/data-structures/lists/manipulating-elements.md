@@ -1,4 +1,4 @@
-# 7.1.2. Manipulating Lists
+# 7.1.2. Manipulating Elements
 Data stored in a list can be modified after list has been initially
 defined. Let us have a look at some ways of doing that.
 

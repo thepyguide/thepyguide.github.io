@@ -1,4 +1,4 @@
-# 7.2.2. Manipulating Tuples
+# 7.2.2. Manipulating Elements
 A tuple on its own is immutable meaning once it is created, the elements
 of it cannot be modified directly.
 
@@ -36,7 +36,7 @@ reconverted into a tuple with a similar method:
 
 In order to remove elements, methods like `list.pop()` or the `del`
 keyword could be used. For more information about list operations,
-see [section 7.1.2. Manipulating Lists](../lists/manipulating-elements.md).
+see [section 7.1.2. Lists: Manipulating Elements](../lists/manipulating-elements.md).
 
 ## Concatenating elements (the `+` operator)
 Two or more tuples can be concatenated using the `+` operator.

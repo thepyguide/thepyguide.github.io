@@ -1,4 +1,4 @@
-# 7.1.1. Introduction to Lists
+# 7.1.1. Basics of Lists
 In programming, we need a way of storing and representing large and
 complex data. This is when data structures come into play.
 

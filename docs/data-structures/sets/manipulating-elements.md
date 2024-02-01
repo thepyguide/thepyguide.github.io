@@ -1,4 +1,4 @@
-# 7.3.2. Manipulating Sets
+# 7.3.2. Manipulating Elements
 Sets are mostly used for mathematical operations instead of storing
 data for later use as is the case for tuples and list. Due to this,
 set only provides a small set of operations to manipulate its elements.
