@@ -24,8 +24,8 @@ any of its content behind a paywall.
 However, if you find this guide helpful and want to show some support
 and appreciation, you can donate using one of the following links:
 
-- [:simple-buymeacoffee: BuyMeACoffee](https://www.buymeacoffee.com/izxxr)
-- [:simple-kofi: Ko-Fi](https://www.ko-fi.com/izxxr)
+- [BuyMeACoffee](https://www.buymeacoffee.com/izxxr)
+- [Ko-Fi](https://www.ko-fi.com/izxxr)
 
 All the support and donations are highly appreciated and are used to
 improve this guide and other resources.
