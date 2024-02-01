@@ -16,3 +16,16 @@ This guide is focused to be:
 ## Contributing
 The Python Guide is powered by and encourages community contributions. For
 users looking to contribute, please read the [Contributor Guide](./contributing.md).
+
+## Donate
+The Python Guide is a completely free resource and will never restrict
+any of its content behind a paywall.
+
+However, if you find this guide helpful and want to show some support
+and appreciation, you can donate using one of the following links:
+
+- [:simple-buymeacoffee: BuyMeACoffee](https://www.buymeacoffee.com/izxxr)
+- [:simple-kofi: Ko-Fi](https://www.ko-fi.com/izxxr)
+
+All the support and donations are highly appreciated and are used to
+improve this guide and other resources.
