@@ -36,6 +36,7 @@ The outline of this guide is:
 4. String Operations
 5. Functions
 6. Exception Handling
+7. Data Structures
 
 More topics are being added and will be available soon.
 
