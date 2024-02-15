@@ -1,9 +1,9 @@
 # 5.3. Return Value
-Functions could return a value as a result of its calling. This page covers various features
-and details about the `return` statement.
+Functions could return a value as a result of its calling. This page covers
+various features and details about the `return` statement.
 
-We've already seen in previous sections how return works. It returns a value back to
-the caller.
+We've already seen in previous sections how return works. It returns a value
+back to the caller.
 
 === "Code"
 
@@ -23,9 +23,64 @@ the caller.
 
 Here, `result` is assigned the value returned by function.
 
+## Behaviour of `return`
+The `return` statement is like a terminating statement for a function. When
+you return something, the function terminates with the returned value.
+
+=== "Code"
+
+    ```py linenums="1"
+    def check_password(password):
+        if password == '1234':
+            return True
+
+        return False
+
+    print(check_password('1234'))
+    print(check_password('123456'))
+    ```
+
+=== "Output"
+
+    ```
+    True
+    False
+    ```
+
+In this case, when we passed `1234` to `password` parameter, the if condition was
+satisfied and `return True` on line 3 was executed. As soon as this happened, the
+rest of the function body was skipped and `True` was yielded back to caller.
+
+On the otherhand, when if condition wasn't satisfied (second function call), the
+rest of function body was executed and `False` was returned.
+
+This is equivalent to the following code but the `else` block is unnecessary here:
+
+=== "Code"
+
+    ```py
+    # equivalent to code shown above
+    def check_password(password):
+        if password == '1234':
+            return True
+        else:
+            # This else block is redundant and unnecessary!
+            return False
+
+    print(check_password('1234'))
+    print(check_password('123456'))
+    ```
+
+=== "Output"
+
+    ```
+    True
+    False
+    ```
+
 ## Return nothing
-In some cases, a function performs an action and returns nothing. "Nothing" in Python is
-represented using the `None` value.
+In some cases, a function performs an action and returns nothing. "Nothing" in
+Python is represented using the `None` value.
 
 === "Code"
 
